@@ -1,0 +1,17 @@
+{
+  "standard_deduction": 50000,
+  "section_limits": {
+    "80C": 150000,
+    "80D": 25000,
+    "80CCD1B": 50000,
+    "24b": 200000
+  },
+  "new_regime_slabs": [
+    {"upto": 300000, "rate": 0},
+    {"upto": 600000, "rate": 0.05},
+    {"upto": 900000, "rate": 0.10},
+    {"upto": 1200000, "rate": 0.15},
+    {"upto": 1500000, "rate": 0.20},
+    {"above": 1500000, "rate": 0.30}
+  ]
+}
